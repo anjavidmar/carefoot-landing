@@ -1,0 +1,66 @@
+.header-image > p {
+    background-color: lightblue;
+}
+section.content {
+    background-color: lightcyan;
+}
+img {
+    background-color: deeppink
+}
+main p {
+    background-color: crimson;
+}
+.orange-border {
+    background-color: purple;
+}
+main > section div.button-container {
+    background-color: yellow;
+}
+main > section:first-child > div:first-child > img {
+    border: 1px solid hotpink;
+}
+main > section:first-child > div:first-child > div {
+    border: 1px solid chartreuse;
+}
+main > section:first-child > div:first-child > div > h1 > img {
+    border: 1px solid blue;
+}
+main > section:first-child > div:first-child > div > h1 > span.orange {
+    background-color: black;
+}
+main > section:first-child > div:first-child > div > h1 > span.white {
+    background-color: cadetblue;
+}
+main > section:nth-child(2) > .content:first-child > div:first-child {
+    border: 1px solid hotpink;
+}
+main > section:nth-child(2) > .content:first-child > div:nth-child(2) {
+    border: 1px solid chartreuse;
+}
+main > section:nth-child(5) > div:first-child, main > section:nth-child(6) > img {
+    background-color: darksalmon;
+}
+main > section:nth-child(5) > div:nth-child(2), main > section:nth-child(6) > div {
+    background-color: deepskyblue;
+}
+
+
+
+/* main > section:nth-child(3) div {
+    background-color: green;
+} */
+
+
+/* main > section:nth-child(12) > div:nth-child(2) > div > p {
+    background-color: yellow;
+}
+main > section:nth-child(13) > div > p:nth-child(2) {
+    background-color: pink;
+}
+main > section:nth-child(13) > div > ul {
+    background-color: darkmagenta;
+} */
+
+main > section:nth-child(17) > .button-container {
+    /* background-color: rebeccapurple; */
+}
