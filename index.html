@@ -5,21 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
-        <title>CareFoot</title>
+        <title>CareFoot Shoes</title>
         <link rel="stylesheet" type="text/css" href="./css/reset.css" />
         <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <link rel="stylesheet" type="text/css" href="./css/responsive.css" />
-        <!-- <link rel="stylesheet" type="text/css" href="./css/temp.css" /> -->
     </head>
-
     <body>
-
         <div class="site-container">
-
             <header>
                 <div class="header-image">
-                    <img src="./assets/images/header-hero.png" />
-                    <p>your child's happiness can be measured.</p>
+                    <img src="./assets/images/header-mobile.png" alt="happy feet, happy children" />
+                    <p class="uppercase">your<br /> child's<br /> happiness<br /> can be<br /> measured</p>
+                </div>
+                <div class="header-image">
+                    <img src="./assets/images/header-desktop.png" alt="happy feet, happy children" />
+                    <p class="uppercase">your child's happiness can be measured</p>
                 </div>
                 <div class="header-orange">
                     <div class="content">
@@ -28,26 +28,29 @@
                 </div>
             </header>
             <main>
-                <section class="gradient">
+                <section>
                     <!-- 1 -->
                     <div class="content">
-                        <img src="./assets/images/main-img0.png" />
+                        <img class="mobile" src="./assets/images/main_1_mobile.png" alt="three carefoot shoe models" />
+                        <img class="desktop" src="./assets/images/main_1_desktop.png" alt="three carefoot shoe models" />
                         <div>
                             <h1>
-                                <img src="./assets/images/logo.png" />
+                                <img src="./assets/icons/logo_01.png" alt="carefoot logo"/>
                                 <span class="orange">carefoot</span>
                                 <span class="white">shoes</span>
                             </h1>
                             <p>Perfectly fitting shoe that ensures the proper development of your child's feet.</p>
                             <div class="button-container">
-                                <span class="button">shop now</span>
+                                <a href="#"><span class="button">shop now</span></a>
                             </div>
                         </div>
                     </div>
                     <div class="content">
-                        <img src="./assets/images/main-img1.png" />
+                        <div class="video-container">
+                            <iframe width="672" height="378" src="https://www.youtube.com/embed/8RNgMcrnT_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                         <div class="button-container">
-                            <span class="button">learn more</span>
+                            <a href="#"><span class="button">learn more</span></a>
                         </div>
                     </div>
                 </section>
@@ -55,48 +58,61 @@
                     <!-- 2 -->
                     <div class="content">
                         <div>
-                            <img src="./assets/images/main-img2.png" />
+                            <img src="./assets/images/main_2_benefit.png" alt="carefoot shoe"/>
                         </div>
                         <div>
                             <ul>
-                                <li>Benefit #</li>
-                                <li>Benefit #</li>
-                                <li>Benefit #</li>
-                                <li>Benefit #</li>
+                                <li><img src="./assets/icons/checkmark_white_small.png" alt="checkmark icon"/><span>Benefit #</span></li>
+                                <li><img src="./assets/icons/checkmark_white_small.png" alt="checkmark icon"/><span>Benefit #</span></li>
+                                <li><img src="./assets/icons/checkmark_white_small.png" alt="checkmark icon"/><span>Benefit #</span></li>
+                                <li><img class="benefit-image" src="./assets/icons/checkmark_white_small.png" alt="checkmark icon"/><span>Benefit #</span></li>
                             </ul>
                         </div>
-
                     </div>
                     <div class="content">
                         <div>
-                            <h3 class="uppercase">feature 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
-                            <img src="./assets/images/main-img3.png" />
+                            <div class="grey-square">
+                                <h3 class="uppercase">feature 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
+                                <img src="./assets/images/main_2_placeholder_1.png" />
+                                <img class="benefit-image" src="./assets/images/main_2_feature_1.png" />
+                            </div>
+                            <div class="transperant-space">
+                                <img src="./assets/images/main_2_placeholder_4.png" />
+                            </div>
                         </div>
                         <div>
-                            <h3 class="uppercase">feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
-                            <img src="./assets/images/main-img4.png" />
+                            <div class="grey-square">
+                                <h3 class="uppercase">feature 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
+                                <img src="./assets/images/main_2_placeholder_2.png" />
+                                <img class="benefit-image" src="./assets/images/main_2_feature_2.png" />
+                            </div>
+                            <div class="transperant-space">
+                                <img src="./assets/images/main_2_placeholder_4.png" />
+                            </div>
                         </div>
                         <div>
-                            <h3 class="uppercase">feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
-                            <img src="./assets/images/main-img5.png" />
+                            <div class="grey-square">
+                                <h3 class="uppercase">feature 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
+                                <img src="./assets/images/main_2_placeholder_1.png" />
+                                <img class="benefit-image" src="./assets/images/main_2_feature_3.png" />
+                            </div>
                         </div>
                     </div>
-                    <!-- <div class="white-square"></div> -->
+                    <div class="content white-square">
+                        <div>
+                            <img src="./assets/images/main_2_placeholder_3.png" />
+                        </div>
+                    </div>
                 </section>
                 <section>
                     <!-- 3 -->
-                    <div>
-                        <div class="content">
-                            <img src="./assets/images/main-img6.png" />
-                        </div>
-                    </div>
                     <div class="content">
-                        <img src="./assets/images/main-img7.png" />
+                        <img class="gif" src="./assets/images/gif_1_happy.gif" alt="happy child jumping on tranpoline"/>
                         <div class="button-container">
-                            <span class="button">shop now</span>
+                            <a href="#"><span class="button">shop now</span></a>
                         </div>
                     </div>
                 </section>
@@ -108,124 +124,152 @@
                 </section>
                 <section class="content">
                     <!-- 5 -->
-                    <div><img src="./assets/images/main-img8.png" /><img src="./assets/images/main-img9.png" /></div><div><p><b>Martin Kopač</b> is a fourth-generation shoemaker, who dedicated his life to making sure that little feet no longer suffer due to ill-fitting shoes.</p><p><b>He dedicated many years to the shoe industry,</b> also being a general manager of a big shoe company for 16 years.</p></div>
+                    <div class="about-martin">
+                        <div><img src="./assets/images/main_5_martin_1.png" /><img src="./assets/images/main_5_martin_2.png" /></div><div><p><b>Martin Kopač</b> is a fourth-generation shoemaker, who dedicated his life to making sure that little feet no longer suffer due to ill-fitting shoes.</p><p><b>He dedicated many years to the shoe industry,</b> also being a general manager of a big shoe company for 16 years.</p></div>
+                    </div>
+                    <div class="about-martin">
+                        <img src="./assets/images/main_5_martin_3.jpeg" /><div><p>Furthermore, being <b>the first president of Footwear European Technology Platform,</b> he helped to promote and drive research and innovation towards business success in the footwear industry.</p></div>
+                    </div>
+                    <div class="about-martin">
+                        <div><p>Furthermore, being <b>the first president of Footwear European Technology Platform,</b> he helped to promote and drive research and innovation towards business success in the footwear industry.</p></div><img src="./assets/images/main_5_martin_3.jpeg" />
+                    </div>
                 </section>
-                <section class="content">
+                <section class="content orange-border-container">
                     <!-- 6 -->
-                    <img src="./assets/images/main-img10.png" /><div><p>Furthermore, being <b>the first president of Footwear European Technology Platform,</b> he helped to promote and drive research and innovation towards business success in the footwear industry.</p></div>
-                </section>
-                <section class="content">
-                    <!-- 7 -->
                     <div class="orange-border">
                         <p>What he found out was shocking...</p>
                     </div>
                 </section>
                 <section class="content">
-                    <!-- 8 -->
+                    <!-- 7 -->
                     <div>
-                        <img src="./assets/images/main-img11.2.png" />
+                        <img src="./assets/images/main_7_shutterstock.jpg" />
                         <div>
                             <p>
-                                <i><span>Too many children suffer<br /> from foot problems and deformities.</span><br />
-                                <span>In most cases, these are caused<br /> by ill-fitting shoes.</span></i>
+                                <i><span>Too many children suffer&nbsp;<br /> from foot problems and deformities.&nbsp;</span><br />
+                                <span>In most cases, these are caused&nbsp;<br /> by ill-fitting shoes.&nbsp;</span></i>
                             </p>
                         </div>
                     </div>
                 </section>
                 <section class="content">
-                    <!-- 9 -->
+                    <!-- 8 -->
                     <div>
-                        <img src="./assets/images/main-img12.png" />
-                        <p>
-                            <i>"The shoe industry should offer different widths for every model. Because if the children's shoes don't fit properly, they can later develop a foot problem of some kind. It can affect their posture and cause knee, hip or back issues."</i>
-                            <span>- Martin Kopač</span>
-                        </p>
+                        <div>
+                            <img src="./assets/images/main_8_martin_headshot.jpg" />
+                            <p>
+                                <i>"The shoe industry should offer different widths for every model. Because if the children's shoes don't fit properly, they can later develop a foot problem of some kind. It can affect their posture and cause knee, hip or back issues."</i>
+                                <span>- Martin Kopač</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/images/main_8_martin_headshot.jpg" /><div><p><i>"The shoe industry should offer different widths for every model. Because if the children\'s shoes don\'t fit properly, they can later develop a foot problem of some kind. It can affect their posture and cause knee, hip or back issues."</i><span>- Martin Kopač</span></p></div>
                     </div>
                 </section>
-                <section class="content">
-                    <!-- 10 -->
+                <section class="content orange-border-container">
+                    <!-- 9 -->
                     <div class="orange-border">
                         <p><i>This is the Information Shoe Industry Giants don’t want you to know about!</i></p>
                     </div>
                 </section>
+                <section>
+                    <!-- 10 -->
+                    <div class="content">
+                        <div class="button-container">
+                            <a href="#"><span class="button">shop now</span></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <div class="white-space">
+                                <img src="./assets/images/main_11_placeholder_1.png" />
+                            </div>
+                            <div class="grey-square">
+                                <img src="./assets/images/main_11_placeholder_2.png" />
+                                <img class="problems-image" src="./assets/images/main_11_problem_1.png" />
+                                <h3 class="uppercase">problem 1</h3>
+                                <p>University of Teubingen executed a research, measuring thousands of children's feet and found out that <b>more than 50% of all children's feet are wider than average, and 20% of all children's feet are narrower than the average.</b></p>
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="white-space">
+                                <img src="./assets/images/main_11_placeholder_1.png" />
+                            </div>
+                            <div class="grey-square">
+                                <img src="./assets/images/main_11_placeholder_3.png" />
+                                <img class="problems-image" src="./assets/images/main_11_problem_2.png" />
+                                <h3 class="uppercase">problem 2</h3>
+                                <p>Way too often the shop assistant <b>doesn't have the time or the knowledge</b> to assist properly.</p>
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="white-space">
+                                <img src="./assets/images/main_11_placeholder_1.png" />
+                            </div>
+                            <div class="grey-square">
+                                <img src="./assets/images/main_11_placeholder_2.png" />
+                                <img class="problems-image" src="./assets/images/main_11_problem_3.png" />
+                                <h3 class="uppercase">problem 3</h3>
+                                <p><b>Children can't tell if the shoes are too tight</b> – their feet are not fully developed yet and are therefore less sensitive to pain.</p>
+                                <div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section class="content">
                     <!-- 11 -->
-                    <div class="button-container">
-                        <span class="button">shop now</span>
-                    </div>
-                </section>
-                <section>
-                    <!-- 12 -->
-                    <div>
-                        <img src="./assets/images/main-img13.1.png" />
-                        <h3 class="uppercase">problem 1</h3>
-                        <p>University of Teubingen executed a research, measuring thousands of children's feet and found out that <b>more than 50% of all children's feet are wider than average, and 20% of all children's feet are narrower than the average.</b></p>
-                        <div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="./assets/images/main-img13.2.png" />
-                        <h3 class="uppercase">problem 2</h3>
-                        <p>Way too often the shop assistant <b>doesn't have the time or the knowledge</b> to assist properly.</p>
-                        <div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="./assets/images/main-img13.3.png" />
-                        <h3 class="uppercase">problem 3</h3>
-                        <p><b>Children can't tell if the shoes are too tight</b> – their feet are not fully developed yet and are therefore less sensitive to pain.</p>
-                        <div>
-                            <div></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="content">
-                    <!-- 13 -->
                     <h2>Our solution?</h2>
                 </section>
-                <section class="content">
-                    <!-- 14 -->
+                <section class="content orange-border-container">
+                    <!-- 12 -->
                     <div class="orange-border">
                         <p>3 Widths – Exactly How It Always Should be</p>
                     </div>
                 </section>
                 <section class="gradient">
-                    <!-- 15 -->
+                    <!-- 13 -->
                     <div class="content">
-                        <img src="./assets/images/main-img14.png" />
+                        <img src="./assets/images/main_13_narrow.png" /><img src="./assets/images/main_13_medium.png" /><img src="./assets/images/main_13_wide.png" />
                     </div>
                     <div class="content">
                         <div>
                             <p>Every CAREFOOT model is available in three widths.</p>
-                            <p>Thus, every child can get a shoe that will <b>give</b> its <b>feet maximum support while still offering enough space for healthy growth.</b></p>
+                            <p>Thus, every child can get a shoe that will <b>give their feet maximum support while still offering enough space for healthy growth.</b></p>
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/images/main-img15.png" />
+                        <img src="./assets/images/main_13_hero.png" />
                     </div>
                 </section>
                 <section class="content">
-                    <!-- 16 -->
+                    <!-- 14 -->
                     <div>
-                        <img src="./assets/images/main-img7.png" />
+                        <img class="gif" src="./assets/images/gif_2_options.gif" />
                     </div>
                     <div class="button-container">
-                        <span class="button">get yours now</span>
+                        <a href="#"><span class="button">get yours now</span></a>
                     </div>
                     <div>
                         <p>Our shoe collection reflects our passion for shoes as well as our ongoing commitment to the highest standard.</p>
                         <p><b>Because the little ones only deserve the best.</b></p>
                         <ul>
-                            <li>High-quality materials from the EU</li>
-                            <li>Made in the EU</li>
-                            <li>Practical, convenient, customizable</li>
+                            <li><img src="./assets/icons/checkmark_orange_small.png" alt="checkmark icon"/><span>High-quality materials from the EU</span></li>
+                            <li><img src="./assets/icons/checkmark_orange_small.png" alt="checkmark icon"/><span>Made in the EU</span></li>
+                            <li><img src="./assets/icons/checkmark_orange_small.png" alt="checkmark icon"/><span>Practical, convenient, customizable</span></li>
                         </ul>
                     </div>
                 </section>
-                <section class="content">
-                    <!-- 17 -->
+                <section class="content orange-border-container">
+                    <!-- 15 -->
                     <div class="orange-border">
                         <p>
                             Give your child a healthier alternative.<br />
@@ -234,37 +278,33 @@
                     </div>
                 </section>
                 <section class="content">
-                    <!-- 18 -->
+                    <!-- 16 -->
                     <div>
                         <p>*Disclaimer: If you find our shoe not suitable for your kid... Please use the size calculator anyway, and find an alternative shoe. Our mission goes farther, than selling you a pair.</p>
                     </div>
                     <div class="button-container">
-                        <span class="button">Size Calculator</span>
+                        <a href="#"><span class="button">Size Calculator</span></a>
                     </div>
                 </section>
                 <section class="section-orange">
-                    <!-- 19 -->
+                    <!-- 17 -->
                     <div class="content">
                         <p class="uppercase">this is not all</p>
                     </div>
                 </section>
                 <section class="content">
-                    <!-- 20 -->
+                    <!-- 18 -->
                     <h2>FREE EBOOK:</h2>
                     <p><span>5 startling consequences of your child wearing the wrong size shoe.</p>
                     <p>... And 1 easy solution.</span></p>
                     <div class="button-container">
-                        <span class="button">DOWNLOAD NOW</span>
+                        <a href="#"><span class="button">DOWNLOAD NOW</span></a>
                     </div>
                     <div>
-                        <img src="./assets/images/main-img16.png" />
+                        <img class="ebook" src="./assets/images/main_18_eBOOK.png" alt="ebook 5 startling consequences of your child wearing the wrong size shoe" />
                     </div>
                 </section>
             </main>
-
         </div>
-
-        <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>

@@ -1,21 +1,56 @@
-@media only screen and (min-width : 300px) {
+@media only screen and (min-width: 300px) {
     .header-image > p {
-        width: 55%;
-    }
-    .header-orange p {
-        font-size: 1.1em;
+        width: 50%;
     }
     main > section:first-child > div:first-child > div > h1 {
         font-size: 2em;
     }
 }
 
-@media only screen and (min-width : 400px) {
+@media only screen and (min-width: 350px) {
     .header-image > p {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        width: 45%;
+    }
+    .header-orange p {
+        font-size: 1.1em;
+    }
+    iframe {
+        height: 176px;
+        width: 313px;
+    }
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul > li {
+        font-size: 1.1em;
+    }
+    main > section:nth-child(7) p {
+        font-size: 1.3em;
+    }
+    main > section:nth-child(8) > div:first-child > div > img {
+        max-width: 45%;
+    }
+    main > section:nth-child(14) > div:nth-child(3) > ul {
+        margin: 0 auto;
+        padding: 0 0.5em;
+        width: 75%;
+    }
+    main > section:nth-child(14) > div:nth-child(3) > ul > li > span {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .header-image > p {
+        font-size: 1.6em;
     }
     main {
-        font-size: 1.3em;
+        font-size: 1.1em;
+    }
+    iframe {
+        height: 202px;
+        width: 359px;
+    }
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
+        font-size: 1.2em;
     }
     main > section:nth-child(2) > div:nth-child(2) > div > h3 {
         font-size: 1.5em;
@@ -23,42 +58,34 @@
         padding-top: 1em;
     }
     main > section:nth-child(2) > div:nth-child(2) > div > p {
-        font-size: 1.1rem;
         padding: 1em 0;
         text-align: left;
     }
     main > section:nth-child(2) > div:nth-child(2) > div > img {
         display: block;
     }
-    .section-orange p {
-        font-size: 1.2em;
+    main > section:nth-child(8) > div:first-child {
+        display: none;
     }
-    main > section:nth-child(5) > div > p, main > section:nth-child(6) p {
-        font-size: 0.85em;
-    }
-
-    main > section:nth-child(9) > div > img {
-        max-width: 50%;
-    }
-    main > section:nth-child(9) > div {
-        display: inline-block;
-        /* width: 68%; */
-        /* float: left; */
-        vertical-align: middle;
-        /* padding: 1em; */
+    main > section:nth-child(8) > div:nth-child(2) {
+        display: block;
         font-size: 0.8em;
     }
-    main > section:nth-child(9) > div > p {
-        border-left: 3px solid #ffa600;
-        padding-left: 1.5em;
-        /* margin: 1em 0; */
+    main > section:nth-child(8) > div:nth-child(2) > img {
+        display: inline-block;
+        padding-right: 1em;
+        max-width: 35%;
+        vertical-align: middle;
     }
-    main > section:nth-child(9) i {
-        display: block;
-        margin-bottom: 1em;
+    main > section:nth-child(8) > div:nth-child(2) > div {
+        display: inline-block;
+        width: 65%;
+        vertical-align: middle;
     }
-    main > section:nth-child(9) span {
-        display: block;
+    main > section:nth-child(14) > div:nth-child(3) > ul {
+        margin: 0 auto;
+        padding: 0 0.5em;
+        width: 75%;
     }
 }
 
@@ -70,112 +97,100 @@
     .header-orange p {
         font-size: 1.25em;
     }
-    main > section:first-child > div:first-child > div > h1 > span.white {
-        display: inline-block;
+    iframe {
+        height: 255px;
+        width: 453px;
     }
-    main > section:nth-child(2) > .content:first-child > div:first-child {
+    main > section:nth-child(2) > div:first-child > div:first-child {
         display: inline-block;
         vertical-align: middle;
         width: 50%;
     }
-    main > section:nth-child(2) > .content:first-child > div:nth-child(2) {
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) {
         display: inline-block;
         text-align: left;
         vertical-align: middle;
         width: 45%;
     }
-    main > section:nth-child(8) p {
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
+        padding: 0.5em 0 0.5em 1em;
+    }
+    main > section > div.orange-border > p {
+        /* font-size: 2.2em; */
+        font-size: 2em;
+    }
+    main > section:nth-child(9) > div.orange-border > p {
         font-size: 1.3em;
     }
 }
 
-@media only screen and (min-width : 516px) {
-    main > section:nth-child(9) img {
-        display: inline-block;
-        max-width: 40%;
-        padding: 0 0.5em 0 0;
-        vertical-align: middle;
-    }
-    main > section:nth-child(9) > div {
-        display: inline-block;
-        width: 60%;
-        vertical-align: middle;
-        font-size: 0.9em;
-    }
-    main > section:nth-child(9) > div > p {
-        font-size: 0.85em;
-        /* margin: 1em 0; */
-    }
-    main > section:nth-child(9) i {
-        display: block;
-        margin-bottom: 1em;
-    }
-    main > section:nth-child(9) span {
-        display: block;
-    }
-
-}
-
 @media only screen and (min-width : 600px) {
-    main > section:nth-child(5) > div:first-child {
+    .header-image > p {
+        font-size: 2em;
+    }
+    iframe {
+        height: 308px;
+        width: 548px;
+    }
+    img.gif {
+        max-width: 550px;
+    }
+    main > section:nth-child(2) > div:nth-child(2) > div {
+        padding: 0 0.25em;
+    }
+    main > section:nth-child(5) > div:first-child > div:first-child {
         display: inline-block;
         max-width: 50%;
         padding: 0.2em 0.5em 0.2em 0;
+    }
+    main > section:nth-child(5) > div:first-child > div:nth-child(2) {
+        display: inline-block;
+        width: 50%;
+        padding: 0.2em 0 0.2em 0.5em;
+    }
+    main > section:nth-child(5) > div:first-child  > div:nth-child(2) > p:first-child {
+        margin-bottom: 1em;
     }
     main > section:nth-child(5) > div:nth-child(2) {
-        display: inline-block;
-        width: 50%;
-        padding: 0.2em 0 0.2em 0.5em;
+        display: none;
     }
-    main > section:nth-child(5) > div > p:first-child {
-        margin-bottom: 1em;
+    main > section:nth-child(5) > div:nth-child(3) {
+        display: block;
     }
-    main > section:nth-child(6) > img {
+    main > section:nth-child(5) > div:nth-child(3)  > img {
         display: inline-block;
         max-width: 50%;
         padding: 0.2em 0 0.2em 0.5em;
     }
-    main > section:nth-child(6) > div {
+    main > section:nth-child(5) > div:nth-child(3) > div {
         display: inline-block;
         width: 50%;
         padding: 0.2em 0.5em 0.2em 0;
     }
-    main > section:nth-child(6) p {
+    main > section:nth-child(5) > div:nth-child(3) > div > p {
         text-align: right;
     }
-    .orange-border > p {
+    main > section:nth-child(7) > div > div {
         font-size: 1.5em;
+        top: 10px;
+        left: 10px;
     }
-    main > section:nth-child(10) p {
-    font-size: 1.3em;
+    main > section:nth-child(8) > div:nth-child(2) {
+        font-size: 0.9em;
     }
-    main > section:nth-child(12) {
-        color: #fff;
-        overflow: hidden;
-    }
-    main > section:nth-child(12) > div {
-        float: left;
-        width: 33.33%;
+    main > section:nth-child(10) > div:nth-child(2) > div {
+        padding: 0 0.25em;
     }
 }
 
 @media only screen and (min-width : 650px) {
     .header-image > p {
-        font-size: 2em;
-        width: 42%;
+        font-size: 2.5em;
     }
     .header-orange p {
         font-size: 1.4em;
     }
-    main {
-        font-size: 1.1em;
-    }
-    main > section:first-child {
-        padding-top: 1em;
-    }
     main > section:first-child > div:first-child > img {
-        margin-top: 1em;
-        vertical-align: top;
         width: 63%;
     }
     main > section:first-child > div:first-child > div {
@@ -188,56 +203,84 @@
     main > section:first-child > div:first-child > div > h1 > span.white {
         display: block;
     }
-    main > section:nth-child(2){
-        /* padding-bottom: 100px; */
-    }
-    main > section:nth-child(2) > div:nth-child(2) > div {
-        display: inline-block;
-        padding: 0 1% 1em;
-        position: relative;
-        width: 31%;
-    }
-    main > section:nth-child(2) > div:nth-child(2) > div > img {
-        /* position: absolute; */
-        /* left: 50%; */
-        /* bottom: -115px; */
-        /* width: 95%; */
-        /* -ms-transform: translate(-50%,0); */
-        /* -webkit-transform: translate(-50%,0); */
-        /* transform: translate(-50%,0); */
-
-    }
-    main > section:nth-child(2) > div:nth-child(3) {
-        background-color: #fff;
-        width: 100%;
-        height: 150px;
-    }
-    main > section:nth-child(5) > div > p, main > section:nth-child(6) p {
-        font-size: 1em;
-    }
-    main > section:nth-child(8) > div > div {
-        left: 3px;
-    }
-    main > section:nth-child(8) p {
-        font-size: 1.75em;
-    }
-    main > section:nth-child(9) > div > p {
-        font-size: 1.1em;
+    iframe {
+        height: 335px;
+        width: 595px;
     }
 }
 
 @media only screen and (min-width : 700px) {
-    .orange-border > p {
-        font-size: 2em;
+    main {
+        font-size: 1.2em;
     }
-    main > section:nth-child(10) p {
-        font-size: 1.5em;
+    main > section:nth-child(2) > div:nth-child(2) > div {
+        display: inline-block;
+        width: 32%;
+    }
+    main > section:nth-child(2) > div:nth-child(2) > div > div.transperant-space {
+        display: none;
+    }
+    main > section:nth-child(2) > div:nth-child(3) {
+        text-align: center;
+    }
+    main > section:nth-child(2) > div:nth-child(3) > div {
+        display: inline-block;
+        width: 32%;
+    }
+    main > section:nth-child(10) > div:nth-child(2) > div {
+        display: inline-block;
+        width: 31%;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width : 735px) {
+    iframe {
+        height: 378px;
+        width: 672px;
+    }
+}
+
+@media only screen and (min-width : 800px) {
+    .header-image > p {
+        font-size: 2.75em;
+    }
+    .header-orange p {
+        font-size: 1.4em;
+    }
+    header > .header-image:first-child {
+        display: none;
+    }
+    header > .header-image:nth-child(2) {
+        display: block;
+    }
+    main > section:first-child > div:first-child > div > h1 {
+        font-size: 1.7em;
+    }
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
+        line-height: 3em;
+        padding:
+    }
+    main > section:nth-child(14) > div:nth-child(3) > ul {
+        line-height: 2;
+        margin: 1.5em auto;
+        width: 65%;
+    }
+    main > section:nth-child(14) > div:nth-child(3) > ul >li {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+    main > section:nth-child(14) > div:nth-child(3) > ul >li > span{
+        width: 88%;
+    }
+    main > section:nth-child(18) img.ebook {
+        max-width: 680px;
     }
 }
 
 @media only screen and (min-width : 850px) {
     .header-image > p {
-        font-size: 2.5em;
+        font-size: 3em;
     }
     .header-orange p {
         font-size: 1.8em;
@@ -248,45 +291,23 @@
     main > section:first-child > div:first-child > div > h1 {
         font-size: 1.7em;
     }
+    main > section:nth-child(17) > div > p.uppercase {
+        font-size: 1.75em;
+    }
+    main > section:nth-child(18) > h2 {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width : 1000px) {
     .header-image > p {
-        font-size: 3em;
+        font-size: 3.4em;
     }
     .header-orange p {
-        font-size: 2.2em;
-    }
-    main {
-        font-size: 1.4em;
-    }
-    main > section:first-child {
-        padding-top: 2em;
-    }
-    main > section:first-child > div:first-child > div > h1 {
-        /* font-size: 1.7em; */
-    }
-    .orange-border > p {
-        /* font-size: 2.2em; */
         font-size: 2em;
     }
-    main > section:nth-child(10) p {
-        font-size: 1.7em;
-    }
-}
-
-@media only screen and (min-width : 1300px) {
-    .header-image > p {
-        font-size: 3em;
-    }
-    .header-orange p {
-        font-size: 2.2em;
-    }
-    main {
-        font-size: 1.5em;
-    }
     main > section:first-child {
-        padding-top: 3em;
+        padding-top: 2.2em;
     }
     main > section:first-child > div:first-child > div > h1 {
         font-size: 2em;
