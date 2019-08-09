@@ -265,8 +265,6 @@ main > section:nth-child(5) {
     padding: 1em 3% 0;
 }
 main > section:nth-child(5) > div:first-child > div:first-child {
-    /* display: inline-block; */
-    /* max-width: 33%; */
     vertical-align: middle;
     text-align: center;
 }
@@ -279,10 +277,7 @@ main > section:nth-child(5) > div:first-child > div:first-child > img:last-child
     padding-left: 0.2em;
 }
 main > section:nth-child(5) > div:first-child > div:nth-child(2) {
-    /* display: inline-block; */
-    /* width: 65%; */
     vertical-align: middle;
-    /* padding: 1em; */
     padding: 0.5em 0;
 }
 main > section:nth-child(5) > div:first-child > div > p:first-child {
@@ -292,15 +287,10 @@ main > section:nth-child(5) > div:nth-child(2), main > section:nth-child(5) > di
     margin-top: 1em;
 }
 main > section:nth-child(5) > div:nth-child(2) > img, main > section:nth-child(5) > div:nth-child(3) > img {
-    /* display: inline-block; */
-    /* max-width: 33%; */
     vertical-align: middle;
 }
 main > section:nth-child(5) > div:nth-child(2) > div, main > section:nth-child(5) > div:nth-child(3) > div {
-    /* display: inline-block; */
-    /* width: 65%; */
     vertical-align: middle;
-    /* padding: 1em; */
     padding: 0.5em 0;
 }
 main > section:nth-child(5) > div:nth-child(3) {

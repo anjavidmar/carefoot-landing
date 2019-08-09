@@ -1,1 +1,1 @@
-[https://anjavidmar.github.io/carefoot-landing/]
+https://anjavidmar.github.io/carefoot-landing/
