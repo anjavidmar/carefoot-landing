@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 350px) {
     .header-image > p {
-        font-size: 1.4em;
+        font-size: 1.5em;
         width: 45%;
     }
     .header-orange p {
@@ -22,11 +22,17 @@
     main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul > li {
         font-size: 1.1em;
     }
+    main > section:nth-child(6) > div.orange-border > p {
+        font-size: 1.4em;
+    }
     main > section:nth-child(7) p {
         font-size: 1.3em;
     }
     main > section:nth-child(8) > div:first-child > div > img {
         max-width: 45%;
+    }
+    main > section:nth-child(12) > div.orange-border > p {
+        font-size: 1.25em;
     }
     main > section:nth-child(14) > div:nth-child(3) > ul {
         margin: 0 auto;
@@ -43,18 +49,13 @@
         font-size: 1.6em;
     }
     main {
-        font-size: 1.1em;
+        font-size: 1.15em;
     }
     iframe {
         height: 202px;
         width: 359px;
     }
-    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
-        font-size: 1.2em;
-    }
     main > section:nth-child(2) > div:nth-child(2) > div > h3 {
-        font-size: 1.5em;
-        font-weight: 700;
         padding-top: 1em;
     }
     main > section:nth-child(2) > div:nth-child(2) > div > p {
@@ -87,20 +88,43 @@
         padding: 0 0.5em;
         width: 75%;
     }
+    main > section:nth-child(15) > div.orange-border > p {
+        font-size: 1.1em;
+    }
 }
 
 @media only screen and (min-width : 500px) {
     .header-image > p {
-        font-size: 1.8em;
-        width: 45%;
+        font-size: 2em;
     }
     .header-orange p {
         font-size: 1.25em;
+    }
+    main {
+        line-height: 1.3;
     }
     iframe {
         height: 255px;
         width: 453px;
     }
+    main > section > div.orange-border > p {
+        /* font-size: 1.5em; */
+    }
+    main > section:nth-child(6) > div.orange-border > p {
+        font-size: 1.75em;
+    }
+    main > section:nth-child(9) > div.orange-border > p {
+        font-size: 1.25em;
+    }
+    main > section:nth-child(12) > div.orange-border > p {
+        font-size: 1.65em;
+    }
+    main > section:nth-child(13) > div:nth-child(2) > div > p {
+        font-size: 1.15em;
+    }
+}
+
+@media only screen and (min-width: 550px) {
     main > section:nth-child(2) > div:first-child > div:first-child {
         display: inline-block;
         vertical-align: middle;
@@ -108,23 +132,24 @@
     }
     main > section:nth-child(2) > div:first-child > div:nth-child(2) {
         display: inline-block;
-        text-align: left;
         vertical-align: middle;
         width: 45%;
+        max-width: 310px;
     }
     main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
+        margin: 0;
         padding: 0.5em 0 0.5em 1em;
     }
-    main > section > div.orange-border > p {
-        /* font-size: 2.2em; */
-        font-size: 2em;
-    }
-    main > section:nth-child(9) > div.orange-border > p {
-        font-size: 1.3em;
+    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul > li {
+        margin-bottom: 1em;
     }
 }
 
 @media only screen and (min-width : 600px) {
+    .header-image > p {
+        font-size: 2.5em;
+        left: 50%;
+    }
     .header-image > p {
         font-size: 2em;
     }
@@ -171,12 +196,15 @@
         text-align: right;
     }
     main > section:nth-child(7) > div > div {
-        font-size: 1.5em;
+        font-size: 1.35em;
         top: 10px;
         left: 10px;
     }
     main > section:nth-child(8) > div:nth-child(2) {
         font-size: 0.9em;
+    }
+    main > section:nth-child(9) > div.orange-border > p {
+        font-size: 1.3em;
     }
     main > section:nth-child(10) > div:nth-child(2) > div {
         padding: 0 0.25em;
@@ -184,18 +212,12 @@
 }
 
 @media only screen and (min-width : 650px) {
-    .header-image > p {
-        font-size: 2.5em;
-    }
-    .header-orange p {
-        font-size: 1.4em;
-    }
     main > section:first-child > div:first-child > img {
-        width: 63%;
+        width: 60%;
     }
     main > section:first-child > div:first-child > div {
         display: inline-block;
-        width: 35%;
+        width: 37%;
     }
     main > section:first-child > div:first-child > div > h1 {
         font-size: 1.5em;
@@ -207,15 +229,40 @@
         height: 335px;
         width: 595px;
     }
+    main > section:nth-child(9) > div.orange-border > p,
+    main > section:nth-child(15) > div.orange-border > p {
+        font-size: 1.35em;
+    }
 }
 
 @media only screen and (min-width : 700px) {
+    main > section:nth-child(10) > div:nth-child(2) > div {
+        display: inline-block;
+        width: 31%;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width : 780px) {
+    .header-image > p {
+        font-size: 2.5em;
+    }
     main {
         font-size: 1.2em;
+    }
+    main > section:first-child > div:first-child > div > h1 {
+        font-size: 1.75em;
     }
     main > section:nth-child(2) > div:nth-child(2) > div {
         display: inline-block;
         width: 32%;
+    }
+    main > section:nth-child(2) > div:nth-child(2) > div {
+        display: inline-block;
+        width: 32%;
+    }
+    main > section:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > p.hidden {
+        display: block;
     }
     main > section:nth-child(2) > div:nth-child(2) > div > div.transperant-space {
         display: none;
@@ -226,11 +273,6 @@
     main > section:nth-child(2) > div:nth-child(3) > div {
         display: inline-block;
         width: 32%;
-    }
-    main > section:nth-child(10) > div:nth-child(2) > div {
-        display: inline-block;
-        width: 31%;
-        vertical-align: top;
     }
 }
 
@@ -245,24 +287,19 @@
     .header-image > p {
         font-size: 2.75em;
     }
-    .header-orange p {
-        font-size: 1.4em;
-    }
     header > .header-image:first-child {
         display: none;
     }
     header > .header-image:nth-child(2) {
         display: block;
     }
-    main > section:first-child > div:first-child > div > h1 {
-        font-size: 1.7em;
+    .header-orange p {
+        font-size: 1.4em;
     }
-    main > section:nth-child(2) > div:first-child > div:nth-child(2) > ul {
-        line-height: 3em;
-        padding:
+    main {
+        font-size: 1.25em;
     }
     main > section:nth-child(14) > div:nth-child(3) > ul {
-        line-height: 2;
         margin: 1.5em auto;
         width: 65%;
     }
@@ -283,7 +320,7 @@
         font-size: 3em;
     }
     .header-orange p {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     main {
         font-size: 1.3em;
@@ -291,19 +328,12 @@
     main > section:first-child > div:first-child > div > h1 {
         font-size: 1.7em;
     }
-
-
     main > section:nth-child(5) > div:first-child > div:first-child, main > section:nth-child(5) > div:nth-child(3) > div {
         padding: 0.2em 1em 0.2em 0;
     }
     main > section:nth-child(5) > div:first-child > div:nth-child(2), main > section:nth-child(5) > div:nth-child(3)  > img {
         padding: 0.2em 0 0.2em 1em;
     }
-    
-
-
-
-
     main > section:nth-child(17) > div > p.uppercase {
         font-size: 1.75em;
     }
@@ -314,10 +344,10 @@
 
 @media only screen and (min-width : 1000px) {
     .header-image > p {
-        font-size: 3.4em;
+        font-size: 3.2em;
     }
     .header-orange p {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     main > section:first-child {
         padding-top: 2.2em;
