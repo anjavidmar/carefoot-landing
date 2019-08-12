@@ -56,18 +56,6 @@ header > .header-image:nth-child(2) {
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-.header-orange {
-    background-color: #ffa600;
-    color: #000;
-}
-.header-orange > div > p {
-    font-weight: 600;
-    padding: 1em 0;
-    text-shadow: 2px 2px 4px #333c;
-}
-.header-orange > div > p > span {
-    font-weight: 800;
-}
 
 main {
     line-height: 1.15;
@@ -126,7 +114,7 @@ main > section:first-child > div:first-child > div > p {
     padding: 1.5em 0.2em 1em;
 }
 main > section:first-child > div:nth-child(2) {
-    padding: 0.5em 3%;
+    padding: 0.5em 3% 2em;
 }
 iframe {
     box-shadow: 2px -5px 5px #03030399;
@@ -523,9 +511,6 @@ main > section:nth-child(18) > p > span {
         font-size: 1.5em;
         width: 45%;
     }
-    .header-orange p {
-        font-size: 1.1em;
-    }
     iframe {
         height: 176px;
         width: 313px;
@@ -608,9 +593,6 @@ main > section:nth-child(18) > p > span {
 @media only screen and (min-width : 500px) {
     .header-image > p {
         font-size: 2em;
-    }
-    .header-orange p {
-        font-size: 1.25em;
     }
     iframe {
         height: 255px;
@@ -799,9 +781,6 @@ main > section:nth-child(18) > p > span {
     header > .header-image:nth-child(2) {
         display: block;
     }
-    .header-orange p {
-        font-size: 1.4em;
-    }
     main {
         font-size: 1.25em;
     }
@@ -829,9 +808,6 @@ main > section:nth-child(18) > p > span {
 @media only screen and (min-width : 850px) {
     .header-image > p {
         font-size: 3em;
-    }
-    .header-orange p {
-        font-size: 1.6em;
     }
     main {
         font-size: 1.3em;
@@ -868,9 +844,6 @@ main > section:nth-child(18) > p > span {
 @media only screen and (min-width : 1300px) {
     .header-image > p {
         font-size: 3.5em;
-    }
-    .header-orange p {
-        font-size: 1.8em;
     }
     main {
         font-size: 1.35em;
