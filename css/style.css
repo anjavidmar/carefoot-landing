@@ -497,6 +497,16 @@ main > section:nth-child(18) > p > span {
     font-size: 1.2em;
 }
 
+footer {
+    /* background-color: #ffa600; */
+    /* background-color: #373737; */
+    background-color: #ebebeb;
+    color: #373737;
+    font-size: 14px;
+    padding: 7px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 300px) {
     .header-image > p {
         width: 50%;
